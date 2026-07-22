@@ -1,0 +1,13 @@
+# robots.txt for ridevibesbali.com
+
+User-agent: *
+Allow: /
+
+# Block non-content / low-value paths from being crawled
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /*?*utm_
+Disallow: /*?*fbclid
+Disallow: /*?*gclid
+
+Sitemap: https://ridevibesbali.com/sitemap.xml
